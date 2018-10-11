@@ -1,0 +1,86 @@
+  {
+    "line": 1,
+    "elements": [
+      {
+        "comments": [
+          {
+            "line": 2,
+            "value": "#Field Validation"
+          }
+        ],
+        "examples": [
+          {
+            "line": 10,
+            "name": "",
+            "description": "",
+            "id": "monthly-report-application;verify-format-of-standard-header-sections-in-the-report-layout.;",
+            "rows": [
+              {
+                "cells": [
+                  "ReportSections"
+                ],
+                "line": 11,
+                "id": "monthly-report-application;verify-format-of-standard-header-sections-in-the-report-layout.;;1"
+              },
+              {
+                "cells": [
+                  "SH1"
+                ],
+                "line": 12,
+                "id": "monthly-report-application;verify-format-of-standard-header-sections-in-the-report-layout.;;2"
+              },
+              {
+                "cells": [
+                  "SH2"
+                ],
+                "line": 13,
+                "id": "monthly-report-application;verify-format-of-standard-header-sections-in-the-report-layout.;;3"
+              },
+              {
+                "cells": [
+                  "SH3"
+                ],
+                "line": 14,
+                "id": "monthly-report-application;verify-format-of-standard-header-sections-in-the-report-layout.;;4"
+              }
+            ],
+            "keyword": "Examples"
+          }
+        ],
+        "line": 4,
+        "name": "Verify format of Standard Header sections in the Report Layout.",
+        "description": "",
+        "id": "monthly-report-application;verify-format-of-standard-header-sections-in-the-report-layout.",
+        "type": "scenario_outline",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "line": 6,
+            "name": "Application consumes report data JSON file",
+            "keyword": "Given "
+          },
+          {
+            "line": 7,
+            "name": "Report JSON file  validated against the JSON schema",
+            "keyword": "When "
+          },
+          {
+            "line": 8,
+            "name": "Report field values match with expected field values as per \"\u003cReportSections\u003e\" value displayed",
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@FieldValidation"
+          }
+        ]
+      }
+    ],
+    "name": "Monthly report application",
+    "description": "",
+    "id": "monthly-report-application",
+    "keyword": "Feature",
+    "uri": "src\\test\\resources\\features\\test\\Test.feature"
+  }
